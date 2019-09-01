@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.company.saf.test.NavigateToWomensPage">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="clickWomensLink"/>
+        </methods>
+      </class> <!-- com.company.saf.test.NavigateToWomensPage -->
+      <class name="com.company.saf.test.NavigateToTopsPage">
+        <methods>
+          <include name="init"/>
+          <include name="clickWomensLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.company.saf.test.NavigateToTopsPage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
